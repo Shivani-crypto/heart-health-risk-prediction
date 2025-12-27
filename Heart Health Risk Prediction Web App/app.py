@@ -1,16 +1,8 @@
-import os
+
 import numpy as np
-import tensorflow as tf
-from tensorflow.keras.models import load_model
-from tensorflow.keras.preprocessing.image import load_img, img_to_array
-import cv2
+
 from flask import Flask, render_template, request, redirect, url_for
-from datetime import datetime
-import re
-import sqlite3
-from ultralytics import YOLO
-from PIL import Image
-from datetime import datetime
+
 import joblib
 
 
